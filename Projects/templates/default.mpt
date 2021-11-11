@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<!DOCTYPE lmms-project>
+<lmms-project creatorversion="1.2.2" creator="LMMS" version="1.0" type="song">
+  <head masterpitch="0" timesig_denominator="4" bpm="140" timesig_numerator="4" mastervol="100"/>
+  <song>
+    <trackcontainer x="5" width="583" maximized="0" visible="1" y="5" minimized="0" type="song" height="401">
+      <track solo="0" muted="0" name="TripleOscillator" type="0">
+        <instrumenttrack pitch="0" usemasterpitch="1" vol="100" pitchrange="1" pan="0" basenote="57" fxch="0">
+          <instrument name="tripleoscillator">
+            <tripleoscillator stphdetun2="0" modalgo2="2" coarse1="-12" finer2="0" phoffset0="0" wavetype2="0" stphdetun1="0" userwavefile0="" finel1="0" pan2="0" wavetype0="0" modalgo3="2" finel0="0" phoffset1="0" finer1="0" userwavefile2="" vol0="33" userwavefile1="" coarse2="-24" finer0="0" wavetype1="0" modalgo1="2" pan0="0" vol2="33" pan1="0" stphdetun0="0" finel2="0" phoffset2="0" vol1="33" coarse0="0"/>
+          </instrument>
+          <eldata fcut="14000" ftype="0" fres="0.5" fwet="0">
+            <elvol x100="0" lspd="0.1" lspd_numerator="4" rel="0.1" lpdel="0" att="0" amt="0" lamt="0" lspd_syncmode="0" latt="0" lshp="0" ctlenvamt="0" pdel="0" lspd_denominator="4" userwavefile="" hold="0.5" dec="0.5" sustain="0.5"/>
+            <elcut x100="0" lspd="0.1" lspd_numerator="4" rel="0.1" lpdel="0" att="0" amt="0" lamt="0" lspd_syncmode="0" latt="0" lshp="0" ctlenvamt="0" pdel="0" lspd_denominator="4" userwavefile="" hold="0.5" dec="0.5" sustain="0.5"/>
+            <elres x100="0" lspd="0.1" lspd_numerator="4" rel="0.1" lpdel="0" att="0" amt="0" lamt="0" lspd_syncmode="0" latt="0" lshp="0" ctlenvamt="0" pdel="0" lspd_denominator="4" userwavefile="" hold="0.5" dec="0.5" sustain="0.5"/>
+          </eldata>
+          <chordcreator chord-enabled="0" chordrange="1" chord="0"/>
+          <arpeggiator arprange="1" arptime_denominator="4" arptime_numerator="4" arptime_syncmode="0" arpcycle="0" arpmiss="0" arpgate="100" arp-enabled="0" arptime="100" arp="0" arpmode="0" arpdir="0" arpskip="0"/>
+          <midiport fixedoutputnote="-1" fixedinputvelocity="-1" outputprogram="1" outputcontroller="0" inputcontroller="0" inputchannel="0" fixedoutputvelocity="-1" basevelocity="63" readable="0" writable="0" outputchannel="1"/>
+          <fxchain enabled="0" numofeffects="0"/>
+        </instrumenttrack>
+      </track>
+      <track solo="0" muted="0" name="Sample track" type="2">
+        <sampletrack vol="100" pan="0">
+          <fxchain enabled="0" numofeffects="0"/>
+        </sampletrack>
+      </track>
+      <track solo="0" muted="0" name="Beat/Bassline 0" type="1">
+        <bbtrack>
+          <trackcontainer x="591" width="700" maximized="0" visible="1" y="6" minimized="0" type="bbtrackcontainer" height="400">
+            <track solo="0" muted="0" name="Kicker" type="0">
+              <instrumenttrack pitch="0" usemasterpitch="1" vol="100" pitchrange="1" pan="0" basenote="57" fxch="0">
+                <instrument name="kicker">
+                  <kicker decay_numerator="4" env="0.163" startnote="1" decay_syncmode="0" startfreq="150" endnote="0" gain="1" distend="0.8" click="0.4" endfreq="40" slope="0.06" decay="440" dist="0.8" noise="0" decay_denominator="4" version="1"/>
+                </instrument>
+                <eldata fcut="14000" ftype="0" fres="0.5" fwet="0">
+                  <elvol x100="0" lspd="0.1" lspd_numerator="4" rel="0.1" lpdel="0" att="0" amt="0" lamt="0" lspd_syncmode="0" latt="0" lshp="0" ctlenvamt="0" pdel="0" lspd_denominator="4" userwavefile="" hold="0.5" dec="0.5" sustain="0.5"/>
+                  <elcut x100="0" lspd="0.1" lspd_numerator="4" rel="0.1" lpdel="0" att="0" amt="0" lamt="0" lspd_syncmode="0" latt="0" lshp="0" ctlenvamt="0" pdel="0" lspd_denominator="4" userwavefile="" hold="0.5" dec="0.5" sustain="0.5"/>
+                  <elres x100="0" lspd="0.1" lspd_numerator="4" rel="0.1" lpdel="0" att="0" amt="0" lamt="0" lspd_syncmode="0" latt="0" lshp="0" ctlenvamt="0" pdel="0" lspd_denominator="4" userwavefile="" hold="0.5" dec="0.5" sustain="0.5"/>
+                </eldata>
+                <chordcreator chord-enabled="0" chordrange="1" chord="0"/>
+                <arpeggiator arprange="1" arptime_denominator="4" arptime_numerator="4" arptime_syncmode="0" arpcycle="0" arpmiss="0" arpgate="100" arp-enabled="0" arptime="100" arp="0" arpmode="0" arpdir="0" arpskip="0"/>
+                <midiport fixedoutputnote="-1" fixedinputvelocity="-1" outputprogram="1" outputcontroller="0" inputcontroller="0" inputchannel="0" fixedoutputvelocity="-1" basevelocity="63" readable="0" writable="0" outputchannel="1"/>
+                <fxchain enabled="0" numofeffects="0"/>
+              </instrumenttrack>
+              <pattern muted="0" name="Kicker" pos="0" steps="16" type="0"/>
+            </track>
+          </trackcontainer>
+        </bbtrack>
+      </track>
+      <track solo="0" muted="0" name="Automation track" type="5">
+        <automationtrack/>
+      </track>
+    </trackcontainer>
+    <track solo="0" muted="0" name="Automation track" type="6">
+      <automationtrack/>
+      <automationpattern name="Numerator" mute="0" pos="0" prog="0" len="192" tens="1"/>
+      <automationpattern name="Denominator" mute="0" pos="0" prog="0" len="192" tens="1"/>
+      <automationpattern name="Tempo" mute="0" pos="0" prog="0" len="192" tens="1"/>
+      <automationpattern name="Master volume" mute="0" pos="0" prog="0" len="192" tens="1"/>
+      <automationpattern name="Master pitch" mute="0" pos="0" prog="0" len="192" tens="1"/>
+    </track>
+    <fxmixer x="5" width="543" maximized="0" visible="0" y="310" minimized="0" height="333">
+      <fxchannel num="0" muted="0" name="Master" soloed="0" volume="1">
+        <fxchain enabled="0" numofeffects="0"/>
+      </fxchannel>
+    </fxmixer>
+    <ControllerRackView x="680" width="350" maximized="0" visible="0" y="310" minimized="0" height="200"/>
+    <pianoroll x="5" width="860" maximized="0" visible="0" y="5" minimized="0" height="480"/>
+    <automationeditor x="1" width="860" maximized="0" visible="0" y="1" minimized="0" height="400"/>
+    <projectnotes x="700" width="678" maximized="0" visible="0" y="10" minimized="0" height="400"><![CDATA[<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html><head><meta name="qrichtext" content="1" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'MS Shell Dlg 2'; font-size:7.5pt; font-weight:400; font-style:normal;">
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>]]></projectnotes>
+    <timeline lp1pos="192" lpstate="0" lp0pos="0"/>
+    <controllers/>
+  </song>
+</lmms-project>
